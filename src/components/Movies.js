@@ -9,7 +9,7 @@ function Movies() {
       {movies.map( me=>(
         <div key={uuidv4()}>
           <h2>{me.title}</h2>
-          <p>Runtime: {me.time} min.</p>
+          <p>Playtime: {me.time} minutes</p>
           <ul>
           {me.genres.map( ge=>(
             <li key={uuidv4()}>{ge}</li>
