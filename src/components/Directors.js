@@ -1,3 +1,4 @@
+// Help from the official solution helped me understand some things in these files.
 import React from "react";
 import { directors } from "../data";
 import { v4 as uuidv4 } from 'uuid';
